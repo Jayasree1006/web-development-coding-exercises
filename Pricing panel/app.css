@@ -1,0 +1,84 @@
+
+
+body
+{
+    background-color: #60a9ff;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+    
+}
+
+.panel
+{
+     background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display:flex;
+    width: 1200px;
+    height: 500px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+
+ }
+.header
+{
+    color: rgb(86, 82, 82);
+}
+
+.plan
+{
+    border-bottom: 1px solid #e1f1ff;
+    
+}
+.plan last-child
+{
+    border:none;
+    
+}
+.img
+{
+    margin-bottom: 25px;
+}
+
+.features-item
+{
+    color:#016ff9;
+    font-size: 12px ;
+    margin: 10px 0 20px;
+    letter-spacing: 1px;
+    border-top: 1px solid #e1f1ff;
+    padding: 15px 0;
+    font-weight:600;
+}
+
+.pricing-button
+{
+    background-color: #60a9ff;
+    border-radius: 2px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*plan
+{
+    background-color: white;
+}
+/*
+

@@ -1,0 +1,35 @@
+/*
+.done
+{
+    color:red;
+}
+h1{
+    color:brown;
+}
+#two
+{
+    color:blue;
+}
+
+*
+{
+    color:blueviolet;
+}
+*/
+    div{
+        background-color: red;
+        width: 100px;
+        height:100px;
+        padding:30px;
+        margin-color:yellow ;
+    }
+    .box
+    {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left:30px;
+        padding-right: 30px;
+        width:30px;
+        height:50px;
+    }

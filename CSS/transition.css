@@ -1,0 +1,16 @@
+.circle
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.circle:hover
+{
+    transition: 1.5s;
+    background-color: blueviolet;
+}
+h1
+{
+color: aqua;
+}
