@@ -29,7 +29,7 @@ return x+y;}
 add(2,4)
 console.log(add)
 */
-console square = x =>{
+const square = x =>{
     return x*x
 }
 console.log(square)

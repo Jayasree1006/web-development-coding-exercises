@@ -1,4 +1,4 @@
-let arr = [1,2,3,-1]; // spread with function calls.
+/*let arr = [1,2,3,-1]; // spread with function calls.
 let arr3 =["hello"];
 console.log(arr3);
 console.log(Math.min(...arr));
@@ -11,7 +11,7 @@ const args = [0, 1, 2];
 }
 let result = myFunction(...args);
 console.log(result);
-*/
+
 let arr1 = [1, 2, 3];//spread with array
 let arr2 = [4, 5];
 arr = [...arr1, ...arr2,'sprad'];
@@ -46,3 +46,4 @@ const person = {
    const{age,eyecolor} = person;
    console.log(age);
    console.log(person);
+*/
