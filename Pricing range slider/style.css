@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    border: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: transform 0.2s;
+    width: 350px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:white ;
+    font-family:Arial, Helvetica, sans-serif
+}
+.heading{
+    font-size: 30px;
+    color:#01940b;
+    text-align: center;
+    margin-bottom:20px;
+    justify-content: center;
+}
+.input-values{
+    display: flex;
+    flex-direction: column;
+} 
+#pricing-field span{
+    font-size: 17px;
+}
+#min{
+    font-size: 17px;
+}
+#pricing-field{
+    margin-bottom: 10px;
+}
+#pricing-field input{
+    height: 35px;
+    font-size: 15px;
+    border-radius: 9px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif; 
+    border: 0px;
+    background-color: #e4e4e4;
+}
+#min-num{
+    height: 35px;
+    font-size: 15px;
+    border-radius: 9px;
+    text-align: center;
+    border: 0px;
+    background-color: #e4e4e4;
+    margin-bottom: 10px;
+}
+.price-slider-container{
+    margin-top: 10px;
+}
+#price-slider{
+    width: 100%;
+    accent-color:#01940b;
+}
+
+/* Styles for the price input container */
+/*.price-input-container { 
+	width: 100%; 
+} 
+
+.price-input .price-field { 
+	display: flex; 
+	margin-bottom: 22px; 
+} 
+
+.price-field span { 
+	margin-right: 10px; 
+	margin-top: 6px; 
+	font-size: 17px; 
+} 
+
+.price-field input { 
+	flex: 1; 
+	height: 35px; 
+	font-size: 15px; 
+	font-family: "DM Sans", sans-serif; 
+	border-radius: 9px; 
+	text-align: center; 
+	border: 0px; 
+	background: #e4e4e4; 
+} 
+
+.price-input { 
+	width: 100%; 
+	font-size: 19px; 
+	color: #555; 
+} 
+
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+} 
+
+.slider-container { 
+	width: 100%; 
+   
+} 
+
+.slider-container { 
+	height: 6px; 
+	position: relative; 
+	background: #e4e4e4; 
+	border-radius: 5px; 
+} 
+
+.slider-container .price-slider { 
+	height: 100%; 
+	left: 25%; 
+	right: 15%; 
+	position: absolute; 
+	border-radius: 5px; 
+	background: #01940b; 
+} 
+
+.range-input { 
+	position: relative; 
+} 
+
+.range-input input { 
+	position: absolute; 
+	width: 100%; 
+	height: 5px; 
+	background: none; 
+	top: -5px; 
+	pointer-events: none; 
+	cursor: pointer; 
+    -webkit  : none; 
+    accent-color:#01940b;
+} 
+
+/* Styles for the range thumb in WebKit browsers 
+input[type="range"]::-webkit-slider-thumb { 
+	height: 18px; 
+	width: 18px; 
+	border-radius: 70%; 
+	background: #555; 
+	pointer-events: auto; 
+	-webkit-appearance: none; 
+}*/
+
